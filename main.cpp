@@ -1,11 +1,11 @@
 #include <iostream>
 
-void PrintHelloWorld()
+void Print(const std::string& sStr)
 {
-    std::cout << "Hello world" << std::endl;
+    std::cout << sStr << std::endl;
 }
 
 int main()
 {
-    PrintHelloWorld();
+    Print("hello world");
 }
